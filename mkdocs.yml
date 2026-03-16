@@ -1,4 +1,4 @@
-site_name: My MkDocs Material Documentation
+site_name: Cateogry of Test Case
 site_url: https://sitename.example
 theme:
   name: material
@@ -9,6 +9,8 @@ theme:
   favicon: assets/LIG Accuver_LIG Innovative Blue.png
   features:
     - navigation.footer
+    - navigation.tags
+
   palette:
     # Dark Mode
     - scheme: slate
@@ -25,6 +27,9 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
+# plugins:
+#   - search:
+#       tags: true # 검색 결과에서 태그 필터링 지원
 
 markdown_extensions:
   - attr_list
@@ -48,4 +53,22 @@ markdown_extensions:
   - admonition
   - pymdownx.details
 
-copyright: Copyright &copy; 2024 James Willett
+nav:
+  - index.md
+  - TC Category:
+    - VoNR : TC_VoNR.md
+    - VoLTE: TC_VoLTE.md
+    - Handover: TC_Handover.md
+    - temp: admonitions.md
+    - temp2: code-examples.md
+    - temp3: content-tabs.md
+    - temp4: diagram-examples.md
+
+# nav:
+#   - Home: index.md
+#   - Test Case Database:
+#       - VoNR: docs/TC_VoNR.md
+#       - VoLTE: docs/TC_VoLTE.md
+#       - Handover: docs/TC_Handover.md
+
+copyright: Copyright (C) 2026, LIG Accuver Co., Ltd
