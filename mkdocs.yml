@@ -1,4 +1,4 @@
-site_name: Cateogry of Test Case
+site_name: Test Case Repository
 site_url: https://sitename.example
 theme:
   name: material
@@ -71,6 +71,7 @@ nav:
     - VoNR(List): TC_VoNR(List).md
     - ViNR: TC_ViNR.md    
     - VoLTE: TC_VoLTE.md
+    - VoWifi: TC_Vowifi.md
     - ViLTE: TC_ViLTE.md
     - EPSFB: TC_EPSFB.md
     - SRVCC: TC_SRVCC.md
