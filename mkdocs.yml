@@ -8,8 +8,13 @@ theme:
   logo: assets/LIG Accuver_LIG Innovative Blue.png
   favicon: assets/LIG Accuver_LIG Innovative Blue.png
   features:
+    - navigation.indexes  # 카테고리 클릭 시 인덱스 페이지 바로 표시
+    - navigation.expand   # 좌측 메뉴 자동 확장
     - navigation.footer
     - navigation.tags
+    - search.highlight
+    - search.suggest  # 검색어 자동 완성
+    - search.share # 검색 결과 공유 링크
 
   palette:
     # Dark Mode
@@ -30,6 +35,10 @@ theme:
 # plugins:
 #   - search:
 #       tags: true # 검색 결과에서 태그 필터링 지원
+
+plugins:
+  - search:
+      highlight_results: true  # 검색어 하이라이트 활성화
 
 markdown_extensions:
   - attr_list
@@ -55,20 +64,40 @@ markdown_extensions:
 
 nav:
   - index.md
-  - TC Category:
-    - VoNR : TC_VoNR.md
+  - Access:
+    - Access: TC_Access.md
+  - Voice&Video:
+    - VoNR(Table): TC_VoNR.md 
+    - VoNR(List): TC_VoNR(List).md
+    - ViNR: TC_ViNR.md    
     - VoLTE: TC_VoLTE.md
+    - ViLTE: TC_ViLTE.md
+    - EPSFB: TC_EPSFB.md
+    - SRVCC: TC_SRVCC.md
+    - CSFB: TC_CSFB.md        
+  - Mobility:
     - Handover: TC_Handover.md
+    - Redirection: TC_Redirection.md
+    - Reselection: TC_Reselection.md
     - temp: admonitions.md
     - temp2: code-examples.md
     - temp3: content-tabs.md
     - temp4: diagram-examples.md
+  - Throughput:
+    - Throughput: TC_Throughput.md
+  - ETC:
+    - Application Stationary Test: TC_Application_Stationary_Test.md
+    - Backhaul IP Impairment: TC_Backhaul_IP_Impairment.md
+    - DSDS: TC_DSDS.md
+    - Emergency Service: TC_Emergency_Service.md
+    - Feature Test: TC_Feature_Test.md
+    - Link Budget: TC_Link_Budget.md
+    - Message Service: TC_Message_Service.md
+    - Multi-Service: TC_Multi-Service.md
+    - Ping: TC_Ping.md
+    - RF Performance: TC_RF_Performance.md
+    - RLF Recovery: TC_RLF_Recovery.md
+    - UE Capability: TC_UE_Capability.md
 
-# nav:
-#   - Home: index.md
-#   - Test Case Database:
-#       - VoNR: docs/TC_VoNR.md
-#       - VoLTE: docs/TC_VoLTE.md
-#       - Handover: docs/TC_Handover.md
 
 copyright: Copyright (C) 2026, LIG Accuver Co., Ltd
