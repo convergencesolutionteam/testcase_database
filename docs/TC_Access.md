@@ -1,6 +1,3 @@
-{% set access_count = 2 %}
-# Access ({{ access_count }})
-
 # Access (154)
 
 | # | TC Title | Technology | Customer |
