@@ -37,7 +37,7 @@ theme:
 #       tags: true # 검색 결과에서 태그 필터링 지원
 
 plugins:
-  - macros
+  # - macros
   - search:
       highlight_results: true  # 검색어 하이라이트 활성화
 
