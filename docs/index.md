@@ -24,7 +24,7 @@
 ### Throughput
 * 📁 [Throughput](TC_Throughput.md)
 
-# ETC
+### ETC
 * 📁 [Application Stationary Test](TC_Application_Stationary_Test.md)
 * 📁 [Backhaul IP Impairment](TC_Backhaul_IP_Impairment.md)
 * 📁 [DSDS](TC_DSDS.md)
