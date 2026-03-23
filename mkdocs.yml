@@ -9,7 +9,7 @@ theme:
   favicon: assets/LIG Accuver_LIG Innovative Blue.png
   features:
     - navigation.indexes  # 카테고리 클릭 시 인덱스 페이지 바로 표시
-    - navigation.expand   # 좌측 메뉴 자동 확장
+    # - navigation.expand   # 좌측 메뉴 자동 확장
     - navigation.footer
     - navigation.tags
     - search.highlight
@@ -89,7 +89,7 @@ nav:
     - Feature Test: TC_Feature_Test.md
     - Link Budget: TC_Link_Budget.md
     - Message Service: TC_Message_Service.md
-    - Multi-Service: TC_Multi-Service.md
+    - Multi-Service: TC_Multi_Service.md
     - Ping: TC_Ping.md
     - RF Performance: TC_RF_Performance.md
     - RLF Recovery: TC_RLF_Recovery.md
