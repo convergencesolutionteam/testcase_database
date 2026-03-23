@@ -67,7 +67,7 @@ nav:
   - Access:
     - Access: TC_Access.md
   - Voice&Video:
-    - VoNR(Table): TC_VoNR.md 
+    - VoNR: TC_VoNR.md 
     - VoLTE: TC_VoLTE.md
     - EPSFB: TC_EPSFB.md
     - ViNR: TC_ViNR.md    
