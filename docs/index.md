@@ -1,7 +1,7 @@
-# Test Case Repository
+# Test Case Database
 
-무선 통신 장비 검증을 위한 Test Case 목록입니다.  
 
+<!-- 
 ---
 
 ## Technology 분포
@@ -12,7 +12,7 @@
 | 5G-NSA | 17 |
 | Multi-RAT (5G-4G) | 4 |
 | 4G | 5 |
-
+ -->
 
 <!-- ## 카테고리 현황
 

@@ -1,4 +1,4 @@
-site_name: Test Case Repository
+site_name: Test Case Database
 site_url: https://sitename.example
 theme:
   name: material
@@ -64,7 +64,6 @@ markdown_extensions:
   - pymdownx.details
 
 nav:
-  # - index.md
   - Access:
     - Access: TC_Access.md
   - Voice&Video:
@@ -76,16 +75,10 @@ nav:
     - SRVCC: TC_SRVCC.md
     - CSFB: TC_CSFB.md  
     - VoWifi: TC_Vowifi.md
-    # - VoNR(List): TC_VoNR(List).md
-          
   - Mobility:
     - Handover: TC_Handover.md
     - Redirection: TC_Redirection.md
     - Reselection: TC_Reselection.md
-    # - temp: admonitions.md
-    # - temp2: code-examples.md
-    # - temp3: content-tabs.md
-    # - temp4: diagram-examples.md
   - Throughput:
     - Throughput: TC_Throughput.md
   - ETC:
