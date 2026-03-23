@@ -37,6 +37,7 @@ theme:
 #       tags: true # 검색 결과에서 태그 필터링 지원
 
 plugins:
+  - macros
   - search:
       highlight_results: true  # 검색어 하이라이트 활성화
 
@@ -68,22 +69,23 @@ nav:
     - Access: TC_Access.md
   - Voice&Video:
     - VoNR(Table): TC_VoNR.md 
-    - VoNR(List): TC_VoNR(List).md
-    - ViNR: TC_ViNR.md    
     - VoLTE: TC_VoLTE.md
-    - VoWifi: TC_Vowifi.md
-    - ViLTE: TC_ViLTE.md
     - EPSFB: TC_EPSFB.md
+    - ViNR: TC_ViNR.md    
+    - ViLTE: TC_ViLTE.md
     - SRVCC: TC_SRVCC.md
-    - CSFB: TC_CSFB.md        
+    - CSFB: TC_CSFB.md  
+    - VoWifi: TC_Vowifi.md
+    # - VoNR(List): TC_VoNR(List).md
+          
   - Mobility:
     - Handover: TC_Handover.md
     - Redirection: TC_Redirection.md
     - Reselection: TC_Reselection.md
-    - temp: admonitions.md
-    - temp2: code-examples.md
-    - temp3: content-tabs.md
-    - temp4: diagram-examples.md
+    # - temp: admonitions.md
+    # - temp2: code-examples.md
+    # - temp3: content-tabs.md
+    # - temp4: diagram-examples.md
   - Throughput:
     - Throughput: TC_Throughput.md
   - ETC:
